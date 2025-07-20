@@ -3,8 +3,21 @@
  * for Docker builds.
  */
 import "./src/env.js";
+import createNextIntlPlugin from "next-intl/plugin";
+import createMDX from "@next/mdx";
 
 /** @type {import("next").NextConfig} */
-const config = {};
+const config = {
+  pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
+};
 
-export default config;
+const withMDX = createMDX({
+  extension: /\.mdx?$/,
+  options: {
+    remarkPlugins: [],
+    rehypePlugins: [],
+  },
+});
+
+const withNextIntl = createNextIntlPlugin();
+export default withNextIntl(withMDX(config));

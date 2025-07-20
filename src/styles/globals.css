@@ -3,10 +3,23 @@
 
 @custom-variant dark (&:is(.dark *));
 
+html {
+  scroll-behavior: smooth;
+}
+
 @theme {
   --font-sans:
     var(--font-poppins), ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  /* Custom colors */
+  --color-bg-primary: #f2fbfb;
+  --color-bg-secondary: #1c1c1c;
+  --color-text-primary: #151317;
+  --color-text-primary-hover: #3b82f6;
+  --color-text-secondary: #1c1c1c;
+  --color-footerbg: #277bd2;
+  --color-accent-enlight: rgba(94, 234, 212, 0.4);
 }
 
 @theme inline {

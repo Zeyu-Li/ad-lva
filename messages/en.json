@@ -1,0 +1,34 @@
+{
+  "Navbar": {
+    "what": "What is LVA",
+    "about_surgery": "Surgery of AD disease",
+    "case_study": "AD-LVA case study",
+    "research": "Academic & research collaboration",
+    "contact": "Contact",
+    "home": "Home",
+    "showcase": "Showcase",
+    "blog": "Blog"
+  },
+  "Footer": {
+    "address_header": "ADDRESS",
+    "address1": "Hangzhou qiushi hospital",
+    "address2": "108 Shenjia Rd, Hangzhou",
+    "postcode": "China, 310012",
+    "email": "Email: xqp1376@126.com",
+    "copyright": "Copyright © 2025 AD AVL. All rights reserved.",
+    "hours_header": "HOURS",
+    "hours1": "Monday - Saturday: 7:00am - 7:30pm",
+    "hours2": "Sunday: 7:00am - 4:30pm",
+    "quick_links_header": "QUICK LINKS"
+  },
+  "NotFound": {
+    "title": "404 - Page Not Found",
+    "description": "The page you are looking for does not exist.",
+    "back_to_home": "Back to Home"
+  },
+  "Hero": {
+    "title": "LVA microsurgery for Alzheimer's",
+    "description": "Stop progressing, Start recovering!",
+    "button": "Recover now >"
+  }
+}
