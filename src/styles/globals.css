@@ -20,6 +20,7 @@ html {
   --color-text-secondary: #1c1c1c;
   --color-footerbg: #277bd2;
   --color-accent-enlight: rgba(94, 234, 212, 0.4);
+  --color-text-accent: #1900d8;
 }
 
 @theme inline {

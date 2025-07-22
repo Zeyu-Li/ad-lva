@@ -34,11 +34,12 @@ Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/ver
 - ~~image popup on click~~
 - ~~mobile nav bar~~
 - ~~posthog~~
-- font
 - ~~counter up~~
 - ~~tailwind config~~
-- contact form
 - ~~Blog posts~~
+- contact form
+- cards
 - metadata
 - biz stratagy
+- font (possibly VPN)
 -

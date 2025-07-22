@@ -7,19 +7,22 @@ interface Props {
   scrolled: boolean;
   number: number;
   classNames?: string;
-  snippet?: string;
+  preSnippet?: string;
+  postSnippet?: string;
 }
 
 const Increaser: React.FC<Props> = ({
   scrolled,
   number,
-  snippet = "",
+  preSnippet = "",
+  postSnippet = "",
   classNames = "",
 }) => {
   return (
     <span className={classNames}>
+      {preSnippet}
       <CountUp end={scrolled ? number : 0} className="inline" />
-      {snippet}
+      {postSnippet}
     </span>
   );
 };

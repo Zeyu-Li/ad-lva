@@ -30,5 +30,61 @@
     "title": "LVA microsurgery for Alzheimer's",
     "description": "Stop progressing, Start recovering!",
     "button": "Recover now >"
+  },
+  "Cards": {
+    "card1_title": "Top Quality Hospital",
+    "card1_description": "Hangzhou Qiushi Hospital is a top-tier medical institution in China, renowned for its advanced medical technology and compassionate care.",
+    "card1_button": "Tell me more >",
+    "card2_title": "Hangzhou Unique Metropolitan",
+    "card2_description": "Hangzhou is a a very unique metropolitan with its history and culture that combines the synthesis of east and west, and which plays an important role in health tourism. After your surgery, you can enjoy the magnificent city life, the beautiful city and the shopping areas and our team will give support you at all the stages.",
+    "card2_button": "Tell me more >",
+    "card3_title": "Unique quality of service",
+    "card3_description": "Hangzhou Qiushi Hospital is known for its exceptional service with a focus on patient-centered services, setting it apart from other healthcare providers.",
+    "card3_button": "Tell me more >"
+  },
+  "Counter": {
+    "operations": "+ operations",
+    "range1_post": "mm-",
+    "range2_post": "mm range",
+    "incision2_post": "cm incision"
+  },
+  "About": {
+    "person": "Dr. Qingping Xie",
+    "speciality": "Inventor and expert on Deep Cervical LVA supermicrosurgery method for AD disease.",
+    "about": "Prof. QINGPING XIE is an expert microsurgeon at Hangzhou qiushi hosptial  Hangzhou, China. He obtained his MD from the Second Military Medical  University in Shanghai in 1989 and formerly served as the Director of  the Hand Surgery Department, Peripheral Nerve Diagnostic and Therapeutic Center, Sino-Japanese Artificial Finger Joint Transplantation Training  Center, and the International Rheumatoid Arthritis Joint Diagnosis and  Treatment Center at Zhejiang People's Hospital. Presently, he holds the  positions of President at Hangzhou Qiushi Hospital, President at  Hangzhou Huagong Hospital, and Honorary President at Hangzhou Plastic  Surgery Hospital. such as microsurgery, hand surgery, rehabilitation medicine, and  reconstructive surgery. Additionally, Prof Qingping Xie holds a certain  level of influence and standing in the medical community both  domestically and internationally."
+  },
+  "Research": {
+    "title": "Research",
+    "research_paper_1": "Nature",
+    "research_paper_1_description": "Published in 2025",
+    "research_paper_1_link": "Link",
+    "research_paper_2": "Cell",
+    "research_paper_2_description": "Published in Jan 2025",
+    "research_paper_2_link": "Link",
+    "research_paper_3": "PRS",
+    "research_paper_3_description": "Published in 2025",
+    "research_paper_3_link": "Link"
+  },
+  "FAQ": {
+    "title": "Questions and Answers",
+    "question1": "WHAT IS LVA?",
+    "answer1": "LVA, a time-tested surgical technique, has garnered global acclaim for  its unparalleled effectiveness in mitigating lymphedema within the  limbs. It has unequivocally demonstrated its safety and efficacy over two decades.",
+    "question2": "WHY LVA?",
+    "answer2": "LVA is a time-tested surgical technique, has garnered global acclaim for  its unparalleled effectiveness in mitigating lymphedema within the  limbs. It has unequivocally demonstrated its safety and efficacy over two decades.",
+    "question3": "HOW DOES LVA WORK?",
+    "answer3": "LVA is a time-tested surgical technique, has garnered global acclaim for  its unparalleled effectiveness in mitigating lymphedema within the  limbs. It has unequivocally demonstrated its safety and efficacy over two decades.",
+    "question4": "HOW DOES LVA WORK?",
+    "answer4": "LVA is a time-tested surgical technique, has garnered global acclaim for  its unparalleled effectiveness in mitigating lymphedema within the  limbs. It has unequivocally demonstrated its safety and efficacy over two decades.",
+    "other_questions": "Other Questions? >>"
+  },
+  "Contact": {
+    "title": "Contact",
+    "name": "Name",
+    "email": "Email Title",
+    "email_address": "Email Address",
+    "message": "Message",
+    "send": "Send Message",
+    "whatsapp": "WhatsApp",
+    "wechat": "Wechat"
   }
 }

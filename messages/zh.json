@@ -11,9 +11,9 @@
   },
   "Footer": {
     "address_header": "地址",
-    "address1": "杭州钱氏医院",
-    "address2": "杭州市上城区深家巷108号",
-    "postcode": "中国, 310012",
+    "address1": "Hangzhou qiushi hospital",
+    "address2": "108 Shenjia Rd, Hangzhou",
+    "postcode": "China, 310012",
     "email": "Email: xqp1376@126.com",
     "copyright": "Copyright © 2025 AD AVL. All rights reserved.",
     "hours_header": "营业时间",
@@ -30,5 +30,61 @@
     "title": "LVA微手术治疗阿尔茨海默病",
     "description": "停止进展，开始恢复！",
     "button": "立即恢复 >"
+  },
+  "Cards": {
+    "card1_title": "顶级医院质量",
+    "card1_description": "杭州齐舒医院是中国顶尖的医疗机构，以其先进的医疗技术和人性化护理而闻名。",
+    "card1_button": "告诉我更多",
+    "card2_title": "杭州独特都市",
+    "card2_description": "杭州是一个非常独特的都市，其历史和文化融合了东西方的精华，在健康旅游中扮演着重要角色。手术后，您可以享受这座城市的繁华生活、美丽的城市和购物区，我们的团队将在各个阶段为您提供支持。",
+    "card2_button": "告诉我更多",
+    "card3_title": "独特的服务质量",
+    "card3_description": "杭州齐舒医院以其卓越的服务而闻名，专注于以患者为中心的服务，与其他医疗服务提供者区分开来。",
+    "card3_button": "告诉我更多"
+  },
+  "Counter": {
+    "operations": "+ 手术",
+    "range1_post": "mm 范围",
+    "range2_post": "mm 范围",
+    "incision2_post": "cm 切口"
+  },
+  "About": {
+    "person": "Dr. Qingping Xie",
+    "speciality": "发明和研究AD疾病深颈LVA超微手术方法的专家。",
+    "about": "Prof. QINGPING XIE is an expert microsurgeon at Hangzhou qiushi hosptial  Hangzhou, China. He obtained his MD from the Second Military Medical  University in Shanghai in 1989 and formerly served as the Director of  the Hand Surgery Department, Peripheral Nerve Diagnostic and Therapeutic Center, Sino-Japanese Artificial Finger Joint Transplantation Training  Center, and the International Rheumatoid Arthritis Joint Diagnosis and  Treatment Center at Zhejiang People's Hospital. Presently, he holds the  positions of President at Hangzhou Qiushi Hospital, President at  Hangzhou Huagong Hospital, and Honorary President at Hangzhou Plastic  Surgery Hospital. such as microsurgery, hand surgery, rehabilitation medicine, and  reconstructive surgery. Additionally, Prof Qingping Xie holds a certain  level of influence and standing in the medical community both  domestically and internationally."
+  },
+  "Research": {
+    "title": "研究",
+    "research_paper_1": "Nature",
+    "research_paper_1_description": "发表于2025年",
+    "research_paper_1_link": "链接",
+    "research_paper_2": "细胞",
+    "research_paper_2_description": "发表于2025年1月",
+    "research_paper_2_link": "链接",
+    "research_paper_3": "PRS",
+    "research_paper_3_description": "发表于2025年",
+    "research_paper_3_link": "链接"
+  },
+  "FAQ": {
+    "title": "常见问题",
+    "question1": "什么是LVA？",
+    "answer1": "LVA是一种经过时间考验的手术技术，因其在减轻肢体淋巴水肿方面的无与伦比的有效性而获得了全球认可。它无可争议地证明了其安全性和有效性超过二十年。",
+    "question2": "为什么选择LVA？",
+    "answer2": "LVA是一种经过时间考验的手术技术，因其在减轻肢体淋巴水肿方面的无与伦比的有效性而获得了全球认可。它无可争议地证明了其安全性和有效性超过二十年。",
+    "question3": "LVA是如何工作的？",
+    "answer3": "LVA是一种经过时间考验的手术技术，因其在减轻肢体淋巴水肿方面的无与伦比的有效性而获得了全球认可。它无可争议地证明了其安全性和有效性超过二十年。",
+    "question4": "LVA是如何工作的？",
+    "answer4": "LVA是一种经过时间考验的手术技术，因其在减轻肢体淋巴水肿方面的无与伦比的有效性而获得了全球认可。它无可争议地证明了其安全性和有效性超过二十年。",
+    "other_questions": "其他问题？ >>"
+  },
+  "Contact": {
+    "title": "联系我们",
+    "name": "姓名",
+    "email": "邮箱标题",
+    "email_address": "邮箱地址",
+    "message": "消息",
+    "send": "发送消息",
+    "whatsapp": "WhatsApp",
+    "wechat": "Wechat"
   }
 }
