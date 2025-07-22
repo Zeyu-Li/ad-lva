@@ -6,7 +6,7 @@ import About from "../_components/landing_sections/About";
 import Research from "../_components/landing_sections/Research";
 import Cards from "../_components/landing_sections/Cards";
 import FAQ from "../_components/landing_sections/FAQ";
-import Contact from "../_components/common/Contact";
+import Contact from "../_components/contact/Contact";
 
 export default function Home() {
   return (

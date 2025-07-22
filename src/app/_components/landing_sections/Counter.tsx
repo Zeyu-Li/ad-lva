@@ -34,13 +34,14 @@ const Counter: React.FC = () => {
       },
     );
 
-    if (counterIntersectionRef.current) {
-      observer.observe(counterIntersectionRef.current);
+    const currentRef = counterIntersectionRef.current;
+    if (currentRef) {
+      observer.observe(currentRef);
     }
 
     return () => {
-      if (counterIntersectionRef.current) {
-        observer.unobserve(counterIntersectionRef.current);
+      if (currentRef) {
+        observer.unobserve(currentRef);
       }
     };
   }, [scrolledCount]);

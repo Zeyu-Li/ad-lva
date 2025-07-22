@@ -40,7 +40,7 @@ export default function ResearchPaper({
     }
 
     return () => observer.disconnect();
-  }, []);
+  }, [delay]);
 
   return (
     <div

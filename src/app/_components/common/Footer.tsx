@@ -1,29 +1,40 @@
 import { useTranslations } from "next-intl";
 import { Link } from "~/i18n/navigation";
 import {
-  FaFacebook,
   FaInstagram,
   FaYoutube,
+  FaWeixin,
+  FaWhatsapp,
   FaMapMarkerAlt,
   FaClock,
 } from "react-icons/fa";
+import NewsletterSubscription from "./NewsletterSubscription";
 
 export default function Footer() {
   const socials = [
     {
-      name: "Facebook",
-      url: "https://www.facebook.com/adavl",
-      icon: FaFacebook,
-    },
-    {
       name: "Instagram",
       url: "https://www.instagram.com/adavl",
       icon: FaInstagram,
+      tag: "surgeryforalzheimerdisease",
     },
     {
       name: "YouTube",
-      url: "https://www.youtube.com/adavl",
+      url: "https://www.youtube.com/channel/UCPsU1EEnbPV4gNDo_7yb5OA",
       icon: FaYoutube,
+      tag: "@surgeryforalzheimerdisease",
+    },
+    {
+      name: "WeChat",
+      url: "#",
+      icon: FaWeixin,
+      tag: "WeChat ID",
+    },
+    {
+      name: "WhatsApp",
+      url: "https://wa.me/1234567890",
+      icon: FaWhatsapp,
+      tag: "WhatsApp Chat",
     },
   ];
 
@@ -100,25 +111,33 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Column 3: Social Media */}
+          {/* Column 3: Newsletter & Social Media */}
           <div>
-            <h3 className="mb-4 text-lg font-semibold">Follow Us</h3>
-            <div className="flex space-x-4">
-              {socials.map((social) => {
-                const IconComponent = social.icon;
-                return (
-                  <a
-                    key={social.name}
-                    href={social.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex h-10 w-10 items-center justify-center rounded-full bg-white text-blue-600 transition-colors hover:bg-gray-300"
-                    aria-label={social.name}
-                  >
-                    <IconComponent className="h-5 w-5" />
-                  </a>
-                );
-              })}
+            {/* Newsletter Subscription */}
+            <NewsletterSubscription />
+
+            {/* Social Media */}
+            <div>
+              <div className="space-y-3">
+                {socials.map((social) => {
+                  const IconComponent = social.icon;
+                  return (
+                    <a
+                      key={social.name}
+                      href={social.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center space-x-3 rounded px-2 py-1 transition-colors hover:bg-blue-700"
+                      aria-label={social.name}
+                    >
+                      <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white text-blue-600">
+                        <IconComponent className="h-6 w-6" />
+                      </div>
+                      <span className="text-white underline">{social.tag}</span>
+                    </a>
+                  );
+                })}
+              </div>
             </div>
           </div>
         </div>

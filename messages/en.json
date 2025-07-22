@@ -19,7 +19,8 @@
     "hours_header": "HOURS",
     "hours1": "Monday - Saturday: 7:00am - 7:30pm",
     "hours2": "Sunday: 7:00am - 4:30pm",
-    "quick_links_header": "QUICK LINKS"
+    "quick_links_header": "QUICK LINKS",
+    "subscribe_header": "SUBSCRIBE TO JOIN OUR MAILING LIST"
   },
   "NotFound": {
     "title": "404 - Page Not Found",
