@@ -20,7 +20,8 @@
     "hours1": "周一至周六: 7:00am - 7:30pm",
     "hours2": "周日: 7:00am - 4:30pm",
     "quick_links_header": "快速链接",
-    "subscribe_header": "订阅"
+    "subscribe_header": "订阅",
+    "enter_email": "输入您的邮箱"
   },
   "NotFound": {
     "title": "404 - 页面不存在",
@@ -87,5 +88,8 @@
     "send": "发送消息",
     "whatsapp": "WhatsApp",
     "wechat": "Wechat"
+  },
+  "Blog": {
+    "blog_title_header": "博客文章"
   }
 }

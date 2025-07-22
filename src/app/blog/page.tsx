@@ -1,62 +1,8 @@
 import BlogCard from "~/app/_components/common/BlogCard";
+import { getBlogPosts } from "~/app/_components/constants/blogPosts";
 
 export default function BlogIndex() {
-  const blogPosts = [
-    {
-      title: "Welcome to Our Blog",
-      description:
-        "An introduction to our blog system powered by Next.js and MDX. Learn about the features and capabilities of our content platform.",
-      href: "/blog/test",
-      image: "/hero.jpg",
-      publishedDate: "Jan 15, 2025",
-      readTime: "5 min read",
-    },
-    {
-      title: "Understanding LVA Microsurgery",
-      description:
-        "Discover the revolutionary LVA microsurgery technique and how it&apos;s changing the landscape of Alzheimer&apos;s treatment.",
-      href: "/blog/lva-microsurgery",
-      image: "/research1.png",
-      publishedDate: "Jan 10, 2025",
-      readTime: "8 min read",
-    },
-    {
-      title: "Patient Success Stories",
-      description:
-        "Real stories from patients who have undergone LVA microsurgery and their journey to recovery.",
-      href: "/blog/success-stories",
-      image: "/person3.png",
-      publishedDate: "Jan 5, 2025",
-      readTime: "6 min read",
-    },
-    {
-      title: "Latest Research Findings",
-      description:
-        "Explore the latest research and clinical trials that are advancing our understanding of Alzheimer&apos;s treatment.",
-      href: "/blog/research-findings",
-      image: "/hero.jpg",
-      publishedDate: "Dec 28, 2024",
-      readTime: "12 min read",
-    },
-    {
-      title: "Treatment Guidelines & FAQs",
-      description:
-        "Comprehensive guide to LVA treatment procedures, what to expect, and frequently asked questions.",
-      href: "/blog/treatment-guide",
-      image: "/research1.png",
-      publishedDate: "Dec 20, 2024",
-      readTime: "10 min read",
-    },
-    {
-      title: "The Science Behind LVA",
-      description:
-        "Deep dive into the scientific principles and mechanisms that make LVA microsurgery effective for Alzheimer&apos;s treatment.",
-      href: "/blog/science-behind-lva",
-      image: "/hero.jpg",
-      publishedDate: "Dec 15, 2024",
-      readTime: "15 min read",
-    },
-  ];
+  const blogPosts = getBlogPosts();
 
   return (
     <div className="space-y-12">
@@ -70,26 +16,29 @@ export default function BlogIndex() {
         </p>
       </header>
 
-      <section>
-        <h2 className="mb-8 text-2xl font-semibold text-gray-800 dark:text-gray-200">
-          Latest Posts
-        </h2>
-
+      <div className="mx-auto max-w-6xl">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {blogPosts.map((post, index) => (
+          {blogPosts.map((post) => (
             <BlogCard
               key={post.href}
               title={post.title}
               description={post.description}
               href={post.href}
               image={post.image}
-              publishedDate={post.publishedDate}
+              publishedOn={post.publishedOn}
               readTime={post.readTime}
-              delay={index * 150} // Staggered animation
             />
           ))}
         </div>
-      </section>
+
+        {blogPosts.length === 0 && (
+          <div className="text-center">
+            <p className="text-gray-600 dark:text-gray-400">
+              No blog posts found. Check back later for updates!
+            </p>
+          </div>
+        )}
+      </div>
     </div>
   );
 }

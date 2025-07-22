@@ -20,7 +20,8 @@
     "hours1": "Monday - Saturday: 7:00am - 7:30pm",
     "hours2": "Sunday: 7:00am - 4:30pm",
     "quick_links_header": "QUICK LINKS",
-    "subscribe_header": "SUBSCRIBE TO JOIN OUR MAILING LIST"
+    "subscribe_header": "SUBSCRIBE TO JOIN OUR MAILING LIST",
+    "enter_email": "Enter your email"
   },
   "NotFound": {
     "title": "404 - Page Not Found",
@@ -52,7 +53,7 @@
   "About": {
     "person": "Dr. Qingping Xie",
     "speciality": "Inventor and expert on Deep Cervical LVA supermicrosurgery method for AD disease.",
-    "about": "Prof. QINGPING XIE is an expert microsurgeon at Hangzhou qiushi hosptial  Hangzhou, China. He obtained his MD from the Second Military Medical  University in Shanghai in 1989 and formerly served as the Director of  the Hand Surgery Department, Peripheral Nerve Diagnostic and Therapeutic Center, Sino-Japanese Artificial Finger Joint Transplantation Training  Center, and the International Rheumatoid Arthritis Joint Diagnosis and  Treatment Center at Zhejiang People's Hospital. Presently, he holds the  positions of President at Hangzhou Qiushi Hospital, President at  Hangzhou Huagong Hospital, and Honorary President at Hangzhou Plastic  Surgery Hospital. such as microsurgery, hand surgery, rehabilitation medicine, and  reconstructive surgery. Additionally, Prof Qingping Xie holds a certain  level of influence and standing in the medical community both  domestically and internationally."
+    "about": "Prof. QINGPING XIE is an expert microsurgeon at Hangzhou qiushi hosptial Hangzhou, China. He obtained his MD from the Second Military Medical University in Shanghai in 1989 and formerly served as the Director of the Hand Surgery Department, Peripheral Nerve Diagnostic and Therapeutic Center, Sino-Japanese Artificial Finger Joint Transplantation Training Center, and the International Rheumatoid Arthritis Joint Diagnosis and Treatment Center at Zhejiang People's Hospital. Presently, he holds the positions of President at Hangzhou Qiushi Hospital, President at Hangzhou Huagong Hospital, and Honorary President at Hangzhou Plastic Surgery Hospital. such as microsurgery, hand surgery, rehabilitation medicine, and reconstructive surgery. Additionally, Prof Qingping Xie holds a certain level of influence and standing in the medical community both domestically and internationally."
   },
   "Research": {
     "title": "Research",
@@ -69,13 +70,13 @@
   "FAQ": {
     "title": "Questions and Answers",
     "question1": "WHAT IS LVA?",
-    "answer1": "LVA, a time-tested surgical technique, has garnered global acclaim for  its unparalleled effectiveness in mitigating lymphedema within the  limbs. It has unequivocally demonstrated its safety and efficacy over two decades.",
+    "answer1": "LVA, a time-tested surgical technique, has garnered global acclaim for its unparalleled effectiveness in mitigating lymphedema within the limbs. It has unequivocally demonstrated its safety and efficacy over two decades.",
     "question2": "WHY LVA?",
-    "answer2": "LVA is a time-tested surgical technique, has garnered global acclaim for  its unparalleled effectiveness in mitigating lymphedema within the  limbs. It has unequivocally demonstrated its safety and efficacy over two decades.",
+    "answer2": "LVA is a time-tested surgical technique, has garnered global acclaim for its unparalleled effectiveness in mitigating lymphedema within the limbs. It has unequivocally demonstrated its safety and efficacy over two decades.",
     "question3": "HOW DOES LVA WORK?",
-    "answer3": "LVA is a time-tested surgical technique, has garnered global acclaim for  its unparalleled effectiveness in mitigating lymphedema within the  limbs. It has unequivocally demonstrated its safety and efficacy over two decades.",
+    "answer3": "LVA is a time-tested surgical technique, has garnered global acclaim for its unparalleled effectiveness in mitigating lymphedema within the limbs. It has unequivocally demonstrated its safety and efficacy over two decades.",
     "question4": "HOW DOES LVA WORK?",
-    "answer4": "LVA is a time-tested surgical technique, has garnered global acclaim for  its unparalleled effectiveness in mitigating lymphedema within the  limbs. It has unequivocally demonstrated its safety and efficacy over two decades.",
+    "answer4": "LVA is a time-tested surgical technique, has garnered global acclaim for its unparalleled effectiveness in mitigating lymphedema within the limbs. It has unequivocally demonstrated its safety and efficacy over two decades.",
     "other_questions": "Other Questions? >>"
   },
   "Contact": {
@@ -86,6 +87,10 @@
     "message": "Message",
     "send": "Send Message",
     "whatsapp": "WhatsApp",
-    "wechat": "Wechat"
+    "wechat": "Wechat",
+    "contact_message": "Hangzhou Qiushi Hospital is a leading private, multidisciplinary hospital pioneering research in geriatric diseases including deep cervical LVA supermicrosurgical methods for brain functional disorders such as Alzheimer's disease, Parkinson's disease, tinnitus, and amyotrophic lateral sclerosis (ALS). We are keen to academic collaboration with renowned international and domestic partners in the field of surgical treatment for brain functional disorders. We thank you for your interest to connect, due to high volume of inquiry and time zone differences, all reply will be addressed within 5 business days. Your message will reach to the office of Prof. Qingping Xie and his team will provide you with related information about the general inquiry and planning of the surgery."
+  },
+  "Blog": {
+    "blog_title_header": "Blog Posts"
   }
 }

@@ -56,7 +56,7 @@ export default function FAQ() {
             size="lg"
             className="bg-white text-gray-800 hover:bg-gray-100"
           >
-            <Link href="/qa">{t("other_questions")}</Link>
+            <Link href="/faq">{t("other_questions")}</Link>
           </Button>
         </div>
       </div>

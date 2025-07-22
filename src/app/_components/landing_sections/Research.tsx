@@ -41,7 +41,7 @@ export default function Research() {
       <div className="mb-12">
         <Title title={t("title")} />
       </div>
-      <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
         {researchPapers.map((paper) => (
           <ResearchPaper
             key={paper.id}

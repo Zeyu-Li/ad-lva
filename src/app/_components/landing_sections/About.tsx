@@ -16,7 +16,7 @@ export default function About() {
         </div>
         <div className="flex-shrink-0">
           <ImageOnClick
-            src="/person3.png"
+            src="/person4.png"
             alt="Dr. Qingping Xie"
             width={500}
             height={500}

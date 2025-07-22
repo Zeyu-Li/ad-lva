@@ -42,8 +42,8 @@ export default function BlogLayout({
         <PostHogProvider>
           <BlogNav />
           <div className="min-h-screen">
-            <main className="container mx-auto px-4 py-8">
-              <div className="prose prose-lg dark:prose-invert mx-auto max-w-4xl">
+            <main className="mx-auto px-4 py-8">
+              <div className="prose prose-lg dark:prose-invert mx-auto max-w-7xl">
                 {children}
               </div>
             </main>

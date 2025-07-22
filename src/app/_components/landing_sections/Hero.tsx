@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import { Button } from "~/components/ui/button";
 
 export default function Hero() {
   const t = useTranslations("Hero");
@@ -18,9 +19,12 @@ export default function Hero() {
               <p className="text-text-primary text-xl leading-relaxed md:text-2xl">
                 {t("description")}
               </p>
-              <button className="bg-primary w-fit rounded-lg px-6 py-3 text-lg font-semibold text-white">
+              <Button
+                size="lg"
+                className="bg-primary hover:bg-primary/90 w-fit cursor-pointer"
+              >
                 {t("button")}
-              </button>
+              </Button>
             </div>
             <div className="flex-1" />
           </div>

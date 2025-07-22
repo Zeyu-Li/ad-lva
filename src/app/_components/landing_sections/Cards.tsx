@@ -37,7 +37,7 @@ export default function Cards() {
   return (
     <div className="bg-bg-secondary py-16">
       <div className="mx-auto max-w-7xl px-4">
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           {cardsData.map((card) => (
             <Card
               key={card.id}

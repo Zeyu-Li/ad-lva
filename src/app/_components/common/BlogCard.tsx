@@ -9,7 +9,7 @@ interface BlogCardProps {
   description: string;
   href: string;
   image?: string;
-  publishedDate?: string;
+  publishedOn?: string;
   readTime?: string;
   delay?: number;
 }
@@ -19,7 +19,7 @@ export default function BlogCard({
   description,
   href,
   image = "/hero.jpg", // Default fallback image
-  publishedDate,
+  publishedOn,
   readTime,
   delay = 0,
 }: BlogCardProps) {
@@ -77,7 +77,7 @@ export default function BlogCard({
           </p>
           <div className="flex items-center justify-between text-sm text-gray-500 dark:text-gray-400">
             <div className="flex items-center space-x-4">
-              {publishedDate && (
+              {publishedOn && (
                 <span className="flex items-center">
                   <svg
                     className="mr-1 h-4 w-4"
@@ -92,7 +92,7 @@ export default function BlogCard({
                       d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
                     />
                   </svg>
-                  {publishedDate}
+                  {publishedOn}
                 </span>
               )}
               {readTime && (

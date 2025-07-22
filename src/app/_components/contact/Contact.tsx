@@ -120,7 +120,11 @@ export default function Contact() {
                 />
               </div>
 
-              <Button type="submit" size="lg" className="w-full sm:w-auto">
+              <Button
+                type="submit"
+                size="lg"
+                className="w-full cursor-pointer sm:w-auto"
+              >
                 <FaPaperPlane className="mr-2 h-4 w-4" />
                 {t("send")}
               </Button>
