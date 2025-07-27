@@ -92,5 +92,65 @@
   },
   "Blog": {
     "blog_title_header": "Blog Posts"
+  },
+  "BlogPreview": {
+    "previous_posts": "Previous Posts",
+    "next_posts": "Next Posts",
+    "view_all": "View All"
+  },
+  "Hype": {
+    "title": "Spain location coming soon",
+    "location": "Spain, Ibiza"
+  },
+  "Collaborators": {
+    "research1": "Scientific collaboration with Beijing Tiantan Hospital (北京天坛医院)"
+  },
+  "AboutSurgery": {
+    "title": "About the Surgery",
+    "pricing_title": "Pricing",
+    "pricing_table_1_1": "Early stage AD",
+    "pricing_table_1_2": "23&lt;MMSE",
+    "pricing_table_1_3": "35,000 USD",
+    "pricing_table_1_4": "Approx. 10-15 LVAs bilaterally",
+    "pricing_table_2_1": "Middle stage AD",
+    "pricing_table_2_2": "10&lt;MMSE&lt;22",
+    "pricing_table_2_3": "40,000 USD",
+    "pricing_table_2_4": "Approx. 15-20 LVAs bilaterally",
+    "pricing_table_3_1": "Late stage AD",
+    "pricing_table_3_2": "MMSE&lt;10",
+    "pricing_table_3_3": "45,000 USD",
+    "pricing_table_3_4": "Approx. 25+ LVAs bilaterally",
+    "expected_lvas": "Expected LVAs:",
+    "contact_for_details": "Contact for Details",
+    "pricing_disclaimer": "All prices are estimates. Final pricing may vary based on individual assessment and requirements."
+  },
+  "ResearchVideos": {
+    "video1_title": "LVA Surgical Procedure Overview",
+    "video1_description": "Comprehensive overview of the lymphatic-venous anastomosis surgical procedure for treating Alzheimer's disease.",
+    "video2_title": "Patient Outcomes and Recovery",
+    "video2_description": "Detailed analysis of patient outcomes and recovery processes following LVA surgery for AD treatment.",
+    "video3_title": "Deep Cervical LVA Technique",
+    "video3_description": "Advanced demonstration of the deep cervical LVA supermicrosurgery technique developed by Dr. Qingping Xie.",
+    "video4_title": "Research Methodology and Results",
+    "video4_description": "Scientific methodology and clinical results from ongoing research into LVA treatment for neurological disorders."
+  },
+  "BodySection": {
+    "title": "Understanding LVA Surgery for Alzheimer's Disease",
+    "body_section_1_title": "Advanced Microsurgical Technique",
+    "body_section_1_img_description": "State-of-the-art microsurgical equipment used in LVA procedures",
+    "body_section_1_text": "The lymphatic-venous anastomosis (LVA) procedure represents a revolutionary approach to treating Alzheimer's disease. Using advanced microsurgical techniques, our surgeons create precise connections between lymphatic vessels and veins in the deep cervical region. This innovative procedure helps improve cerebral fluid drainage and has shown promising results in slowing AD progression.",
+    "body_section_2_title": "Patient-Centered Care",
+    "body_section_2_img_description": "Dedicated medical team providing personalized patient care",
+    "body_section_2_text": "At Hangzhou Qiushi Hospital, every patient receives individualized treatment plans based on their specific condition and MMSE scores. Our multidisciplinary team works closely with patients and their families throughout the entire treatment journey, from initial consultation through post-operative care and rehabilitation. We believe in transparent communication and comprehensive support.",
+    "body_section_3_title": "Recovery and Outcomes",
+    "body_section_3_img_description": "Patient recovery process and rehabilitation activities",
+    "body_section_3_text": "Post-operative recovery focuses on cognitive rehabilitation and monitoring treatment effectiveness. Our patients typically experience improved cognitive function and quality of life. The minimally invasive nature of the LVA procedure allows for faster recovery times compared to traditional brain surgeries, with most patients able to return to normal activities within weeks."
+  },
+  "CaseStudy": {
+    "title": "AD-LVA Case Study",
+    "learn_more": "Learn More >"
+  },
+  "What": {
+    "title": "What is LVA Surgery?"
   }
 }

@@ -91,5 +91,64 @@
   },
   "Blog": {
     "blog_title_header": "博客文章"
+  },
+  "BlogPreview": {
+    "previous_posts": "上一篇",
+    "next_posts": "下一篇",
+    "view_all": "查看所有"
+  },
+  "Hype": {
+    "title": "西班牙地点即将到来",
+    "location": "西班牙"
+  },
+  "Collaborators": {
+    "research1": "与北京天坛医院合作"
+  },
+  "AboutSurgery": {
+    "title": "关于手术",
+    "pricing_title": "价格",
+    "pricing_table_1_1": "早期阶段AD",
+    "pricing_table_1_2": "23&lt;MMSE",
+    "pricing_table_1_3": "35,000 USD",
+    "pricing_table_1_4": "约10-15 LVAs bilaterally",
+    "pricing_table_2_1": "中期阶段AD",
+    "pricing_table_2_2": "10&lt;MMSE&lt;22",
+    "pricing_table_2_3": "40,000 USD",
+    "pricing_table_2_4": "约15-20 LVAs bilaterally",
+    "pricing_table_3_1": "晚期阶段AD",
+    "pricing_table_3_2": "MMSE&lt;10",
+    "pricing_table_3_3": "45,000 USD",
+    "pricing_table_3_4": "约25+ LVAs bilaterally",
+    "expected_lvas": "预期LVAs：",
+    "contact_for_details": "联系了解详情",
+    "pricing_disclaimer": "所有价格均为估算。最终价格可能因个人评估和要求而有所不同。"
+  },
+  "ResearchVideos": {
+    "video1_title": "LVA手术程序概述",
+    "video1_description": "淋巴静脉吻合术治疗阿尔茨海默病的全面概述。",
+    "video2_title": "患者预后与康复",
+    "video2_description": "LVA手术治疗AD后患者预后和康复过程的详细分析。",
+    "video3_title": "深颈部LVA技术",
+    "video3_description": "谢青平医生开发的深颈部LVA超微手术技术的高级演示。",
+    "video4_title": "研究方法和结果",
+    "video4_description": "LVA治疗神经系统疾病持续研究的科学方法和临床结果。"
+  },
+  "BodySection": {
+    "title": "了解阿尔茨海默病LVA手术",
+    "body_section_1_title": "先进微创手术技术",
+    "body_section_1_img_description": "LVA手术中使用的最新微创手术设备",
+    "body_section_1_text": "淋巴静脉吻合术(LVA)代表了治疗阿尔茨海默病的革命性方法。使用先进的微创手术技术，我们的外科医生在深颈部区域的淋巴管和静脉之间建立精确的连接。这项创新程序有助于改善脑脊液引流，在延缓AD进展方面显示出令人鼓舞的结果。",
+    "body_section_2_title": "以患者为中心的护理",
+    "body_section_2_img_description": "专业医疗团队提供个性化患者护理",
+    "body_section_2_text": "在杭州求是医院，每位患者都根据其具体病情和MMSE评分接受个性化治疗方案。我们的多学科团队在整个治疗过程中与患者及其家属密切合作，从初次咨询到术后护理和康复。我们相信透明的沟通和全面的支持。",
+    "body_section_3_title": "康复与疗效",
+    "body_section_3_img_description": "患者康复过程和康复活动",
+    "body_section_3_text": "术后康复重点关注认知康复和治疗效果监测。我们的患者通常会经历认知功能和生活质量的改善。与传统脑部手术相比，LVA手术的微创性质使恢复时间更快，大多数患者能够在数周内恢复正常活动。"
+  },
+  "CaseStudy": {
+    "title": "AD-LVA 案例研究"
+  },
+  "What": {
+    "title": "什么是LVA手术?"
   }
 }

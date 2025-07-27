@@ -54,7 +54,7 @@ export default function BlogCard({
         isVisible ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"
       }`}
     >
-      <article className="group h-full overflow-hidden rounded-2xl bg-white shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl dark:bg-gray-800">
+      <article className="group h-full overflow-hidden rounded-2xl shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
         <Link href={href}>
           <div className="aspect-w-16 aspect-h-10 overflow-hidden">
             <Image

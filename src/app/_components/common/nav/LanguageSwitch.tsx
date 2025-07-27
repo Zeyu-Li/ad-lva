@@ -1,4 +1,4 @@
-import { Link } from "~/i18n/navigation";
+import { Link, usePathname } from "~/i18n/navigation";
 
 interface LanguageSwitchProps {
   locale: string;
@@ -10,6 +10,7 @@ interface LanguageSwitchProps {
 }
 
 const LanguageSwitch = ({ locale }: LanguageSwitchProps) => {
+  const pathname = usePathname();
   const languages = [
     { code: "en", name: "EN", fullName: "English" },
     { code: "zh", name: "中文", fullName: "Chinese" },
@@ -21,7 +22,7 @@ const LanguageSwitch = ({ locale }: LanguageSwitchProps) => {
       {languages.map((language, index) => (
         <Link
           key={language.code}
-          href="/"
+          href={pathname}
           locale={language.code}
           className={`px-4 py-2 text-sm font-medium transition-all duration-200 ${
             locale === language.code
