@@ -1,5 +1,5 @@
 import NewsletterSubscription from "~/app/_components/common/NewsletterSubscription";
-import ResearchVideos from "~/app/_components/case_study/ResearchVideos";
+import ResearchVideos from "~/app/_components/_sections/case_study/ResearchVideos";
 import { useTranslations } from "next-intl";
 import Title from "~/app/_components/common/HeaderTitle";
 import Link from "next/link";

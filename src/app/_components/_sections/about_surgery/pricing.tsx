@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import Title from "../common/HeaderTitle";
+import Title from "../../common/HeaderTitle";
 import Link from "next/link";
 
 export default function Pricing() {
@@ -16,7 +16,7 @@ export default function Pricing() {
   });
 
   return (
-    <div className="w-full py-16">
+    <div className="w-full">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <Title title={t("pricing_title")} />
 

@@ -9,12 +9,13 @@ import {
   FaClock,
 } from "react-icons/fa";
 import NewsletterSubscription from "./NewsletterSubscription";
+import { navItems } from "./nav/nav_items";
 
 export default function Footer() {
   const socials = [
     {
       name: "Instagram",
-      url: "https://www.instagram.com/adavl",
+      url: "https://www.instagram.com/dearestanqi?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
       icon: FaInstagram,
       tag: "surgeryforalzheimerdisease",
     },
@@ -36,14 +37,6 @@ export default function Footer() {
       icon: FaWhatsapp,
       tag: "WhatsApp Chat",
     },
-  ];
-
-  const quickLinks = [
-    { key: "what", href: "/" },
-    { key: "about_surgery", href: "/" },
-    { key: "case_study", href: "/" },
-    { key: "research", href: "/" },
-    { key: "contact", href: "/contact" },
   ];
 
   const t_footer = useTranslations("Footer");
@@ -97,7 +90,7 @@ export default function Footer() {
               {t_footer("quick_links_header")}
             </h3>
             <ul className="space-y-3">
-              {quickLinks.map((link) => (
+              {navItems.map((link) => (
                 <li key={link.key}>
                   <Link
                     href={link.href}

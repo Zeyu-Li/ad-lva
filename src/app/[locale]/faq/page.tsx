@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 import Title from "~/app/_components/common/HeaderTitle";
-import FAQ from "~/app/_components/landing_sections/FAQ";
+import FAQ from "~/app/_components/_sections/landing/FAQ";
 import BlogPreviewSlider from "~/app/_components/common/BlogPreviewSlider";
 import { getBlogPosts } from "~/app/_components/constants/blogPosts";
 

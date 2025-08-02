@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import ImageOnClick from "../common/ImageOnClick";
+import ImageOnClick from "../../common/ImageOnClick";
 
 export default function BodySection() {
   const t = useTranslations("BodySection");

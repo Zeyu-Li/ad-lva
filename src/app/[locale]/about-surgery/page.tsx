@@ -1,7 +1,9 @@
 import { useTranslations } from "next-intl";
-import Pricing from "~/app/_components/about_surgery/pricing";
+import Pricing from "~/app/_components/_sections/about_surgery/pricing";
 import Title from "~/app/_components/common/HeaderTitle";
-import BodySection from "~/app/_components/about_surgery/BodySection";
+import BodySection from "~/app/_components/_sections/about_surgery/BodySection";
+import Eligibility from "~/app/_components/_sections/about_surgery/Eligibility";
+import FeeStructure from "~/app/_components/_sections/about_surgery/FeeStructure";
 
 export default function AboutSurgeryPage() {
   const t = useTranslations("AboutSurgery");
@@ -24,7 +26,13 @@ export default function AboutSurgeryPage() {
         <BodySection />
       </section>
       <section className="mx-auto max-w-7xl px-4 py-16">
+        <Eligibility />
+      </section>
+      <section className="mx-auto max-w-7xl px-4 py-16">
         <Pricing />
+      </section>
+      <section className="mx-auto max-w-7xl px-4 py-16">
+        <FeeStructure />
       </section>
     </main>
   );

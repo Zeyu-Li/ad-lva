@@ -1,10 +1,7 @@
-import { useTranslations } from "next-intl";
-import ResearchPaper from "../common/ResearchPaper";
-import Title from "../common/HeaderTitle";
+import Research from "../landing/Research";
+import CollaborationPapers from "./CollaborationPapers";
 
-export default function Research() {
-  const t = useTranslations("Research");
-
+export default function Collaborators() {
   // Research papers data structure
   const researchPapers = [
     {
@@ -35,24 +32,26 @@ export default function Research() {
       delay: 400,
     },
   ];
-
   return (
-    <div className="py-16">
-      <div className="mb-12">
-        <Title title={t("title")} />
-      </div>
-      <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
-        {researchPapers.map((paper) => (
-          <ResearchPaper
-            key={paper.id}
-            title={t(paper.titleKey)}
-            description={t(paper.descriptionKey)}
-            link={paper.link}
-            image={paper.image}
-            delay={paper.delay}
-          />
-        ))}
-      </div>
+    <div className="relative">
+      {/* Background Video */}
+      <video
+        className="absolute inset-0 h-full w-full object-cover"
+        autoPlay
+        muted
+        loop
+        playsInline
+      >
+        <source src="/water.mp4" type="video/mp4" />
+      </video>
+
+      {/* Content */}
+      <section className="relative z-10 mx-auto max-w-7xl px-4">
+        <Research include_title={false} papers={researchPapers} />
+      </section>
+      <section className="relative z-10 mx-auto max-w-7xl px-4">
+        <CollaborationPapers />
+      </section>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import BodySection from "~/app/_components/about_surgery/BodySection";
+import BodySection from "~/app/_components/_sections/about_surgery/BodySection";
 import Title from "~/app/_components/common/HeaderTitle";
 
 export default function WhatPage() {

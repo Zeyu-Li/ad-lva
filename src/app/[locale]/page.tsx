@@ -1,14 +1,45 @@
-import Hero from "../_components/landing_sections/Hero";
-import LandingVideo from "../_components/landing_sections/Video";
-import Treatments from "../_components/landing_sections/Treatments";
-import Counter from "../_components/landing_sections/Counter";
-import About from "../_components/landing_sections/About";
-import Research from "../_components/landing_sections/Research";
-import Cards from "../_components/landing_sections/Cards";
-import FAQ from "../_components/landing_sections/FAQ";
-import Contact from "../_components/contact/Contact";
+import Hero from "~/app/_components/_sections/landing/Hero";
+import LandingVideo from "~/app/_components/_sections/landing/Video";
+import Treatments from "~/app/_components/_sections/landing/Treatments";
+import Counter from "~/app/_components/_sections/landing/Counter";
+import About from "~/app/_components/_sections/landing/About";
+import Research from "~/app/_components/_sections/landing/Research";
+import Cards from "~/app/_components/_sections/landing/Cards";
+import FAQ from "~/app/_components/_sections/landing/FAQ";
+import Contact from "~/app/_components/contact/Contact";
 
 export default function Home() {
+  // Research papers data structure
+  const researchPapers = [
+    {
+      id: 1,
+      titleKey: "research_paper_1",
+      descriptionKey: "research_paper_1_description",
+      linkKey: "research_paper_1_link",
+      link: "https://www.nature.com",
+      image: "/research1.png",
+      delay: 0,
+    },
+    {
+      id: 2,
+      titleKey: "research_paper_2",
+      descriptionKey: "research_paper_2_description",
+      linkKey: "research_paper_2_link",
+      link: "https://www.nature.com",
+      image: "/research1.png",
+      delay: 200,
+    },
+    {
+      id: 3,
+      titleKey: "research_paper_3",
+      descriptionKey: "research_paper_3_description",
+      linkKey: "research_paper_3_link",
+      link: "https://www.nature.com",
+      image: "/research1.png",
+      delay: 400,
+    },
+  ];
+
   return (
     <main>
       <section>
@@ -30,7 +61,7 @@ export default function Home() {
         <About />
       </section>
       <section className="mx-auto max-w-7xl px-4">
-        <Research />
+        <Research papers={researchPapers} />
       </section>
       <section className="bg-bg-secondary">
         <FAQ />

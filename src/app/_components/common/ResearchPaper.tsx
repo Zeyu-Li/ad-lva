@@ -49,7 +49,7 @@ export default function ResearchPaper({
         isVisible ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"
       }`}
     >
-      <div className="group h-full overflow-hidden rounded-2xl shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
+      <div className="group h-full overflow-hidden rounded-2xl bg-white shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
         <a href={link} target="_blank" rel="noopener noreferrer">
           <div className="aspect-w-16 aspect-h-10 overflow-hidden">
             <Image

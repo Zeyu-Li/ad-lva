@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import Card from "../common/Card";
+import Card from "~/app/_components/common/Card";
 
 export default function Cards() {
   const t = useTranslations("Cards");

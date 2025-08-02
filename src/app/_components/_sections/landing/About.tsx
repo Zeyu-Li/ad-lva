@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import ImageOnClick from "../common/ImageOnClick";
+import ImageOnClick from "~/app/_components/common/ImageOnClick";
 
 export default function About() {
   const t = useTranslations("About");

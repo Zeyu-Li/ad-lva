@@ -1,24 +1,26 @@
 import { useTranslations } from "next-intl";
-import ImageOnClick from "../common/ImageOnClick";
+import ImageOnClick from "~/app/_components/common/ImageOnClick";
 
 export default function Hype() {
   const t = useTranslations("Hype");
   return (
     <div className="bg-bg-primary overflow-hidden pt-16">
-      <div className="flex min-h-[500px]">
+      <div className="flex min-h-[500px] flex-col md:flex-row">
         {/* Left column for text */}
-        <div className="flex flex-1 flex-col justify-center py-8 pr-4 pl-[20%]">
-          <h2 className="text-5xl font-bold text-black">
+        <div className="flex flex-1 flex-col justify-center px-4 py-8 md:pr-4 md:pl-[20%]">
+          <h2 className="text-3xl font-bold text-black md:text-5xl">
             {t("title")}
-            <span className="text-text-accent text-6xl font-bold">{"..."}</span>
+            <span className="text-text-accent text-4xl font-bold md:text-6xl">
+              {"..."}
+            </span>
           </h2>
-          <p className="mt-4 text-4xl text-gray-600 dark:text-gray-400">
+          <p className="mt-4 text-2xl text-gray-600 md:text-4xl dark:text-gray-400">
             {t("location")}
           </p>
         </div>
 
         {/* Right column for image - flush to right edge */}
-        <div className="relative flex-1">
+        <div className="relative min-h-[300px] flex-1 md:min-h-0">
           <ImageOnClick
             src="/spain.jpg"
             alt="Hype"

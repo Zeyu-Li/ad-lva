@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
 import { Button } from "~/components/ui/button";
 import { Link } from "~/i18n/navigation";
-import Title from "../common/HeaderTitle";
+import Title from "~/app/_components/common/HeaderTitle";
 
 export default function FAQ() {
   const t = useTranslations("FAQ");

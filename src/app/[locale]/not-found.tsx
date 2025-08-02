@@ -55,6 +55,7 @@ export default function NotFound() {
                   </div>
                   <div className="rounded-lg">
                     <Image
+                      className="rounded-lg"
                       src="/person3.png"
                       alt="AD AVL Logo"
                       width={1440}
