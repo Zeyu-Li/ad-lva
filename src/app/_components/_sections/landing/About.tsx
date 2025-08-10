@@ -26,7 +26,7 @@ export default function About() {
       </div>
       <div className="relative max-w-4xl py-6">
         <div className="bg-text-primary absolute top-0 left-0 h-[80%] w-1 rounded-full"></div>
-        <p className="pl-8 text-justify text-lg leading-relaxed text-gray-700 md:text-xl">
+        <p className="pl-8 text-lg leading-relaxed text-gray-700 md:text-justify md:text-xl">
           {t("about")}
         </p>
       </div>

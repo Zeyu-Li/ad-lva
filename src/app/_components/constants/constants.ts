@@ -1,12 +1,13 @@
 const DEFAULT_TITLE = "The AD-LVA Surgery";
 const DEFAULT_DESCRIPTION = "Surgery for the AD-LVA";
 const DEFAULT_BASE_URL = "https://www.ad-lva.com/";
+const KEYWORDS = ["AD-LVA", "Surgery", "AD-LVA Surgery"];
 
 const CONSTANTS = {
   DEFAULT_TITLE: DEFAULT_TITLE,
   DEFAULT_AUTHOR: "AD-LVA",
   DEFAULT_DESCRIPTION: DEFAULT_DESCRIPTION,
-  DEFAULT_KEYWORDS: ["AD-LVA", "Surgery", "AD-LVA Surgery"],
+  DEFAULT_KEYWORDS: KEYWORDS,
   DEFAULT_SITE_NAME: "AD-LVA Surgery",
   DEFAULT_BASE_URL: DEFAULT_BASE_URL,
   DEFAULT_PREVIEW_IMG: "/ogimage.png",
@@ -14,6 +15,33 @@ const CONSTANTS = {
   DEFAULT_TWITTER_DESCRIPTION: DEFAULT_DESCRIPTION,
 
   DEFAULT_SOCIAL_MEDIA_MESSAGE: "Surgery for the AD-LVA",
+
+  // Manifest constants
+  MANIFEST_SHORT_NAME: "AD-LVA",
+  MANIFEST_CATEGORIES: KEYWORDS,
+  MANIFEST_LANG: "en",
+  MANIFEST_ORIENTATION: "portrait-primary",
+
+  // Manifest shortcuts
+  SHORTCUT_WHAT_NAME: "What is LVA",
+  SHORTCUT_WHAT_SHORT_NAME: "What is LVA",
+  SHORTCUT_WHAT_DESCRIPTION: "Learn about LVA microsurgery",
+  SHORTCUT_WHAT_URL: "/en/what",
+
+  SHORTCUT_SURGERY_NAME: "Surgery Information",
+  SHORTCUT_SURGERY_SHORT_NAME: "Surgery",
+  SHORTCUT_SURGERY_DESCRIPTION: "Information about AD disease surgery",
+  SHORTCUT_SURGERY_URL: "/en/about-surgery",
+
+  SHORTCUT_CASE_NAME: "Case Study",
+  SHORTCUT_CASE_SHORT_NAME: "Cases",
+  SHORTCUT_CASE_DESCRIPTION: "AD-LVA case studies and results",
+  SHORTCUT_CASE_URL: "/en/case-study",
+
+  SHORTCUT_CONTACT_NAME: "Contact",
+  SHORTCUT_CONTACT_SHORT_NAME: "Contact",
+  SHORTCUT_CONTACT_DESCRIPTION: "Get in touch with us",
+  SHORTCUT_CONTACT_URL: "/en/contact",
 };
 
 export default CONSTANTS;
